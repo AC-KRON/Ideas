@@ -15,8 +15,8 @@ class IdeaForm {
     e.preventDefault();
     if (
       !this._form.elements.text.value ||
-      !this._form_elements.tag.value ||
-      !this._form_elements.username.value
+      !this._form.elements.tag.value ||
+      !this._form.elements.username.value
     ) {
       alert('Please enter all fields');
       return;
